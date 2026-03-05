@@ -1,0 +1,13 @@
+{
+  "name": "k6-wardk8s-perf",
+  "version": "1.0.0",
+  "description": "Aggressive K6 Performance Testing Suite for WardK8s",
+  "scripts": {
+    "test:smoke": "k6 run tests/smoke.js",
+    "test:load": "k6 run tests/load.js",
+    "test:stress": "k6 run tests/stress.js"
+  },
+  "devDependencies": {
+    "@types/k6": "^0.48.0"
+  }
+}
